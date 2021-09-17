@@ -22,31 +22,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: #272727;
   background: rgb(247, 251, 252);
-  background: -moz-linear-gradient(
-    top,
-    rgba(247, 251, 252, 1) 0%,
-    rgba(217, 237, 242, 1) 40%,
-    rgba(173, 217, 228, 1) 100%
-  );
   background: -webkit-linear-gradient(
-    top,
-    rgba(247, 251, 252, 1) 0%,
-    rgba(217, 237, 242, 1) 40%,
-    rgba(173, 217, 228, 1) 100%
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(247, 251, 252, 1) 0%,
-    rgba(217, 237, 242, 1) 40%,
-    rgba(173, 217, 228, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    top,
-    rgba(247, 251, 252, 1) 0%,
-    rgba(217, 237, 242, 1) 40%,
-    rgba(173, 217, 228, 1) 100%
-  );
-  background: linear-gradient(
     top,
     rgba(247, 251, 252, 1) 0%,
     rgba(217, 237, 242, 1) 40%,
@@ -71,9 +47,6 @@ img {
 a {
   color: #d24655;
   text-decoration: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -322,13 +295,12 @@ img.right {
 }
 
 .gallery a img {
-  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .gallery a:hover img,
 .gallery a:focus img {
-  -webkit-transform: scale(1.1); /* Saf3.1+, Chrome */
   transform: scale(1.1);
 }
 
@@ -347,8 +319,6 @@ img.right {
   background-color: #fff;
   margin: 0 0 70px 0;
   padding: 40px;
-  -webkit-box-shadow: inset 0px 0px 13px rgba(68, 68, 68, 0.1);
-  -moz-box-shadow: inset 0px 0px 13px rgba(68, 68, 68, 0.1);
   box-shadow: inset 0px 0px 13px rgba(68, 68, 68, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -357,8 +327,6 @@ img.right {
   background-color: #fff;
   margin: 0 0 70px 0;
   padding: 40px;
-  -webkit-box-shadow: inset 0px 0px 13px rgba(68, 68, 68, 0.1);
-  -moz-box-shadow: inset 0px 0px 13px rgba(68, 68, 68, 0.1);
   box-shadow: inset 0px 0px 13px rgba(68, 68, 68, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   max-width: 700px;
