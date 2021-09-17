@@ -37,7 +37,7 @@ html {
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
-.timeline-content h1 {
+.timeline-content h3 {
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
